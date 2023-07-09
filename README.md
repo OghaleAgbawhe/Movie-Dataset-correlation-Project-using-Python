@@ -9,11 +9,13 @@ Libraries utilized: This project involved the use of libraries such as pandas, s
 Below is a summary of the steps undertaken in this project:
 
 #1 - Reading in the data 
+
 The downloaded Kaggle dataset was read in as a dataframe 
 
 ![image](https://github.com/OghaleAgbawhe/Movie-Dataset-correlation-Project-using-Python/assets/133532704/04b3812b-1a69-4eb2-9be8-95b71f987b14)
 
 #2 - Checking for missing data 
+
 This was accomplished using a for loop 
 
 ![image](https://github.com/OghaleAgbawhe/Movie-Dataset-correlation-Project-using-Python/assets/133532704/3f827791-217d-4821-8f12-28d090ce3ce9)
@@ -25,6 +27,7 @@ There are multiple approaches to handling missing data. In this situation, I opt
 
 
 #3 - Modifying data types
+
 Understanding the data types
 
 ![image](https://github.com/OghaleAgbawhe/Movie-Dataset-correlation-Project-using-Python/assets/133532704/baddd10e-773c-45fb-a95b-af9acbb78095)
@@ -32,10 +35,12 @@ Understanding the data types
 
 Modifying numerical variables of interest - budget and gross revenue. Converting it to integers to eliminate the decimals 
 
-![image](https://github.com/OghaleAgbawhe/Movie-Dataset-correlation-Project-using-Python/assets/133532704/5364f90d-124b-4573-bc52-4af1be157468)
+![image](https://github.com/OghaleAgbawhe/Movie-Dataset-correlation-Project-using-Python/assets/133532704/b9fee38a-2d39-4e32-8f23-b907a26eac28)
+
 
 
 #4 - Correlation analysis 
+
 Investigating the correlations between budget, company, votes and gross revenue. Checking to see the relationship between each of the three 
 aforementioned variables and the gross revenue.
 
